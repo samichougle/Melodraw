@@ -1,4 +1,4 @@
-![Melodraw logo](/Users/sami chougle/Pictures/image.png)
+![Image](https://github.com/user-attachments/assets/c02cdc3e-f87d-45a5-80f9-b0cfc98555ba)
 # Melodraw – Drawing Meets Music
 ## Introduction 
 Melodraw is an app that turns drawing into an experience that engages both sight and sound. Brushstroke not only creates a visual design but also plays a unique musical note, making art feel more interactive. Instead of just drawing, users can compose a melody with colors, where each shade represents a different instrument.
