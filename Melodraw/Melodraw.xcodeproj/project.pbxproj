@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9A6BF932D4BD69F002705F4 /* fluteNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF8A2D4BD69E002705F4 /* fluteNote.mp3 */; };
+		B9A6BF942D4BD69F002705F4 /* harpNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF8B2D4BD69E002705F4 /* harpNote.mp3 */; };
+		B9A6BF952D4BD69F002705F4 /* electric-guitarNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF8C2D4BD69E002705F4 /* electric-guitarNote.mp3 */; };
+		B9A6BF962D4BD69F002705F4 /* painoNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF8D2D4BD69E002705F4 /* painoNote.mp3 */; };
+		B9A6BF972D4BD69F002705F4 /* accordionNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF8E2D4BD69E002705F4 /* accordionNote.mp3 */; };
+		B9A6BF982D4BD69F002705F4 /* guitarNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF8F2D4BD69F002705F4 /* guitarNote.mp3 */; };
+		B9A6BF992D4BD69F002705F4 /* violinNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF902D4BD69F002705F4 /* violinNote.mp3 */; };
+		B9A6BF9A2D4BD69F002705F4 /* clarinetNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF912D4BD69F002705F4 /* clarinetNote.mp3 */; };
+		B9A6BF9B2D4BD69F002705F4 /* drumNote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A6BF922D4BD69F002705F4 /* drumNote.mp3 */; };
+		B9AC85A62D527C9F00B31728 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B9AC85A52D527C9F00B31728 /* README.md */; };
+		B9B59ACF2D4BBF0300ECE838 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B59ACE2D4BBF0300ECE838 /* Launch Screen.storyboard */; };
+		B9BA8A5E2D2E8A4F00CFFA68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA8A5D2D2E8A4F00CFFA68 /* ContentView.swift */; };
+		B9C88E572D2C3D120061C49D /* Melodraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C88E562D2C3D120061C49D /* Melodraw.swift */; };
+		B9C88E5B2D2C3D190061C49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C88E5A2D2C3D190061C49D /* Assets.xcassets */; };
+		B9C88E5E2D2C3D190061C49D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C88E5D2D2C3D190061C49D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9A6BF8A2D4BD69E002705F4 /* fluteNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fluteNote.mp3; sourceTree = "<group>"; };
+		B9A6BF8B2D4BD69E002705F4 /* harpNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harpNote.mp3; sourceTree = "<group>"; };
+		B9A6BF8C2D4BD69E002705F4 /* electric-guitarNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "electric-guitarNote.mp3"; sourceTree = "<group>"; };
+		B9A6BF8D2D4BD69E002705F4 /* painoNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = painoNote.mp3; sourceTree = "<group>"; };
+		B9A6BF8E2D4BD69E002705F4 /* accordionNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = accordionNote.mp3; sourceTree = "<group>"; };
+		B9A6BF8F2D4BD69F002705F4 /* guitarNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarNote.mp3; sourceTree = "<group>"; };
+		B9A6BF902D4BD69F002705F4 /* violinNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violinNote.mp3; sourceTree = "<group>"; };
+		B9A6BF912D4BD69F002705F4 /* clarinetNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clarinetNote.mp3; sourceTree = "<group>"; };
+		B9A6BF922D4BD69F002705F4 /* drumNote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumNote.mp3; sourceTree = "<group>"; };
+		B9AC85A52D527C9F00B31728 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9B59ACE2D4BBF0300ECE838 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B9BA8A5D2D2E8A4F00CFFA68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9C88E532D2C3D120061C49D /* Melodraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melodraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C88E562D2C3D120061C49D /* Melodraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melodraw.swift; sourceTree = "<group>"; };
+		B9C88E5A2D2C3D190061C49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C88E5D2D2C3D190061C49D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C88E502D2C3D120061C49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B93487282D3129370070C525 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B9A6BF8E2D4BD69E002705F4 /* accordionNote.mp3 */,
+				B9A6BF912D4BD69F002705F4 /* clarinetNote.mp3 */,
+				B9A6BF922D4BD69F002705F4 /* drumNote.mp3 */,
+				B9A6BF8C2D4BD69E002705F4 /* electric-guitarNote.mp3 */,
+				B9A6BF8A2D4BD69E002705F4 /* fluteNote.mp3 */,
+				B9A6BF8F2D4BD69F002705F4 /* guitarNote.mp3 */,
+				B9A6BF8B2D4BD69E002705F4 /* harpNote.mp3 */,
+				B9A6BF8D2D4BD69E002705F4 /* painoNote.mp3 */,
+				B9A6BF902D4BD69F002705F4 /* violinNote.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B9C88E4A2D2C3D120061C49D = {
+			isa = PBXGroup;
+			children = (
+				B9AC85A52D527C9F00B31728 /* README.md */,
+				B9C88E552D2C3D120061C49D /* Melodraw */,
+				B9C88E542D2C3D120061C49D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C88E542D2C3D120061C49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C88E532D2C3D120061C49D /* Melodraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C88E552D2C3D120061C49D /* Melodraw */ = {
+			isa = PBXGroup;
+			children = (
+				B9BA8A5D2D2E8A4F00CFFA68 /* ContentView.swift */,
+				B9B59ACE2D4BBF0300ECE838 /* Launch Screen.storyboard */,
+				B9C88E562D2C3D120061C49D /* Melodraw.swift */,
+				B93487282D3129370070C525 /* Sounds */,
+				B9C88E5A2D2C3D190061C49D /* Assets.xcassets */,
+				B9C88E5C2D2C3D190061C49D /* Preview Content */,
+			);
+			path = Melodraw;
+			sourceTree = "<group>";
+		};
+		B9C88E5C2D2C3D190061C49D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9C88E5D2D2C3D190061C49D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C88E522D2C3D120061C49D /* Melodraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C88E612D2C3D190061C49D /* Build configuration list for PBXNativeTarget "Melodraw" */;
+			buildPhases = (
+				B9C88E4F2D2C3D120061C49D /* Sources */,
+				B9C88E502D2C3D120061C49D /* Frameworks */,
+				B9C88E512D2C3D120061C49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melodraw;
+			productName = "I Am Poor";
+			productReference = B9C88E532D2C3D120061C49D /* Melodraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C88E4B2D2C3D120061C49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9C88E522D2C3D120061C49D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B9C88E4E2D2C3D120061C49D /* Build configuration list for PBXProject "Melodraw" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C88E4A2D2C3D120061C49D;
+			productRefGroup = B9C88E542D2C3D120061C49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C88E522D2C3D120061C49D /* Melodraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C88E512D2C3D120061C49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A6BF9B2D4BD69F002705F4 /* drumNote.mp3 in Resources */,
+				B9C88E5E2D2C3D190061C49D /* Preview Assets.xcassets in Resources */,
+				B9A6BF932D4BD69F002705F4 /* fluteNote.mp3 in Resources */,
+				B9A6BF942D4BD69F002705F4 /* harpNote.mp3 in Resources */,
+				B9AC85A62D527C9F00B31728 /* README.md in Resources */,
+				B9A6BF9A2D4BD69F002705F4 /* clarinetNote.mp3 in Resources */,
+				B9A6BF992D4BD69F002705F4 /* violinNote.mp3 in Resources */,
+				B9A6BF952D4BD69F002705F4 /* electric-guitarNote.mp3 in Resources */,
+				B9C88E5B2D2C3D190061C49D /* Assets.xcassets in Resources */,
+				B9A6BF982D4BD69F002705F4 /* guitarNote.mp3 in Resources */,
+				B9A6BF962D4BD69F002705F4 /* painoNote.mp3 in Resources */,
+				B9B59ACF2D4BBF0300ECE838 /* Launch Screen.storyboard in Resources */,
+				B9A6BF972D4BD69F002705F4 /* accordionNote.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C88E4F2D2C3D120061C49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C88E572D2C3D120061C49D /* Melodraw.swift in Sources */,
+				B9BA8A5E2D2E8A4F00CFFA68 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9C88E5F2D2C3D190061C49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9C88E602D2C3D190061C49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C88E622D2C3D190061C49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Melodraw/Preview Content\"";
+				DEVELOPMENT_TEAM = SBH3NH59N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Melodraw;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sami.Melodraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9C88E632D2C3D190061C49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Melodraw/Preview Content\"";
+				DEVELOPMENT_TEAM = SBH3NH59N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Melodraw;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sami.Melodraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C88E4E2D2C3D120061C49D /* Build configuration list for PBXProject "Melodraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C88E5F2D2C3D190061C49D /* Debug */,
+				B9C88E602D2C3D190061C49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C88E612D2C3D190061C49D /* Build configuration list for PBXNativeTarget "Melodraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C88E622D2C3D190061C49D /* Debug */,
+				B9C88E632D2C3D190061C49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C88E4B2D2C3D120061C49D /* Project object */;
+}
